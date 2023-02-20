@@ -115,3 +115,36 @@ th, td{
     list-style-type: circle;
 }
 
+
+/* |||REGISTRATION||| */
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+/* |||IFRAME MAPS||| */
+
+.main-iframe{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-iframe{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: #B4D6EF;
+}
