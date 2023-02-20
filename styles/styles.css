@@ -1,0 +1,117 @@
+/*  |||HEADER||| */
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #B4D6EF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    text-align: center;
+}
+
+.logo-nav{
+    height: 150px;
+    width: 150px;
+    justify-content: flex-start;
+}
+
+.title-h1{
+    font-size: 30px;
+    justify-content: flex-start;
+}
+
+.nav{
+    justify-content: flex-end;
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+/* |||MAIN||| */
+.title-main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+}
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B4D6EF;
+}
+
+.index-jpg{
+    height: 100%;
+    width: 500px;
+}
+
+.text-main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    text-align: center;
+}
+
+.text-about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    text-align: center;
+}
+
+/* |||FOOTER||| */
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    background-color: #B4D6EF;
+}
+
+.link-locations{
+    position: relative;
+    margin-left: 50px;
+    bottom: -19px;
+}
+
+/* |||SCHEDULE||| */
+
+.Schedule-Block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    text-align: center;
+}
+
+.table-schedule{
+    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+
+th, td{
+    width: 25%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+
+/* |||RULES||| */
+
+.rules-list{
+    display: flex;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Helvetica;
+    text-align: justify;
+}
+
+.circle-list{
+    list-style-type: circle;
+}
+
